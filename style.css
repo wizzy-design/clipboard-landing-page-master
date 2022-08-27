@@ -331,8 +331,147 @@ footer{
 
     .hero-words p, 
     #hero2-p{
-        width: 70%;
+        width: 75%;
         line-height: 1.5rem;
+    }
+
+    .btns{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .btn1,
+    .btn2{
+        width: 70%;
+        padding: 1rem;
+    }
+
+    .hero3{
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 0;
+    }
+
+    #lap{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    #comp-img{
+        position: static;
+        right: 0;
+        width: 90%;
+    }
+
+    .hero31, 
+    .hero32, 
+    .hero33{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero31 h2, 
+    .hero32 h2, 
+    .hero33 h2{
+        text-align: center;
+    }
+
+    .hero31 p, 
+    .hero32 p, 
+    .hero33 p{
+        text-align: center;
+        line-height: 1.5rem;
+        width: 75%;
+    }
+
+    .hero4-words{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .hero4-words p{
+        width: 80%;
+        line-height: 1.5rem;
+    }
+
+    #tab-img{
+        width: 90%;
+    }
+
+    .hero5-logos{
+        width: 100%;
+        flex-direction: column;
+        padding: 3rem 0;
+        gap: 2rem;
+    }
+
+    .hero5-logos div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero5-logos p{
+        width: 75%;
+    }
+
+    .company-logos{
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .hero7 h1{
+        width: 90%;
+    }
+
+    .hero7 p{
+        width: 80%;
+        line-height: 1.5rem;
+    }
+
+    .btns-end{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .btns-end .btn1{
+        margin: 0;
+    }
+
+    footer{
+        padding: 4rem 0;
+        justify-content: center;
+    }
+
+    .foot-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    #foot-first{
+        flex-direction: column;
+        padding: 0 0 2rem 0;
+    }
+
+    #footer-nav{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #footer-nav a{
+        text-align: center;
     }
 }
 
