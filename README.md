@@ -9,6 +9,8 @@ This is a solution to the Clipboard-landing-page master challenge Frontend Mento
 ### Screenshot
 
 ![](./my_screenshots/desktop_mode.png)
+
+
 ![](./my_screenshots/mobile_mode.png)
 
 ## My process
